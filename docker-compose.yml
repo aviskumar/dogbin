@@ -21,8 +21,6 @@ services:
       - ENABLE_SCREENSHOTTER=true
     volumes:
       - ./dogbin.xdb:/dogbin.xdb
-    ports:
-      - 127.0.0.1:8080:8080
     expose:
       - 8080
       - 9090
