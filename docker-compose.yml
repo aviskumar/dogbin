@@ -61,8 +61,6 @@ services:
       - PORT=80
       - HOST=iframely.docker.localhost
       - BASE_APP_URL=https://${HOST}
-    ports:
-      - 127.0.0.1:8083:80
     expose:
       - 80
     volumes:
